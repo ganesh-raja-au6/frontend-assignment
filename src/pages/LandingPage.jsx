@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar, Testimonial} from '../components'
+import {Navbar, Footer} from '../components'
 
 function LandingPage() {
     return (
@@ -82,6 +82,7 @@ function LandingPage() {
                     </div>
                 </div>
             </section>
+            <Footer />
         </div>
     )
 }
