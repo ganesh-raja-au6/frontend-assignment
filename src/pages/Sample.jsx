@@ -1,10 +1,11 @@
 import React, {useState} from 'react'
-import {Testimonial, Navbar, Rating, Footer} from '../components'
+import {Testimonial, Navbar, Rating, Footer,Routing} from '../components'
 
 function Sample() {
   const [numbers, setNumbers] = useState(10)
     return (
         <div className="wrapper">
+          <Routing />
       <Navbar />
       <section className="testimonial">
         <div className="container">

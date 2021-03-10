@@ -2,6 +2,8 @@ import React from 'react';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
+import {Routing} from '../components'
+
 class SimpleForm extends React.Component {
     state = {
         checked : false
@@ -28,6 +30,8 @@ class SimpleForm extends React.Component {
                 }}
                 
                 render={({ errors, status, touched }) => (
+                    <>
+                    <Routing />
                     <div className="container">
                         <h1 className="p-3 text-center h3 font-weight-bolder">Omega</h1>
                         <Form className="simple-form">
@@ -61,6 +65,7 @@ class SimpleForm extends React.Component {
                             </div>
                         </Form>
                     </div>
+                    </>
                 )}
             />
         )

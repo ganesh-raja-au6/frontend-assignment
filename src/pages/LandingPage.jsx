@@ -1,15 +1,16 @@
 import React from 'react'
-import {Navbar, Footer} from '../components'
+import {Navbar, Footer, Routing} from '../components'
 
 function LandingPage() {
     return (
         <div>
+            <Routing />
             <Navbar />
             <section className="showcase my-5 py-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-5">
-                            <img src="https://images.app.goo.gl/NNwXZ1nwHXEx4ATHA" className="iPhone-Body" alt=""/>
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/71i2XhHU3pL._SX679_.jpg" className="iPhone-Body img-fluid w-100 h-100"  alt=" no mobile"/>
                         </div>
                         <div className="col-md-7">
                             <h2 className="Travel-the-world-m">Travel the world & meet new friends.</h2>
@@ -77,7 +78,7 @@ function LandingPage() {
                             </div>
                         </div>
                         <div className="col-md-5">
-                            <img src="../images/116-1162552_latest-smartphones-android-mobile-phones-at-best-smartphone.png" className="Img-1" alt=""/>
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51fqTrJaTvL._SL1024_.jpg" className="Img-1 img-fluid w-100" alt=""/>
                         </div>
                     </div>
                 </div>
