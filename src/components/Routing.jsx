@@ -9,6 +9,7 @@ function Routing() {
                 <li className="nav-item"><Link  className="nav-link" to="/sampleform">Sample Form</Link> </li>
                 <li className="nav-item"><Link  className="nav-link" to="/sample">Sample</Link> </li>
                 <li className="nav-item"><Link  className="nav-link" to="/landingpage">Landing page</Link> </li>
+                <li className="nav-item"><Link  className="nav-link" to="/comingsoon">Coming</Link> </li>
             </ul>
         </nav>
     )
